@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/assets/img/Favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <h1 class="menu__titulo"></h1>
+                </li>
+                <li class="menu__item"><a href="#">Programação</a></li>
+                <li class="menu__item"><a href="#">Categorias</a></li>
+                <li class="menu__item">
+                    <a href="#">
+                        <img src="assets/img/Ícone localização.png" alt="">
+                        Seu local
+                        <img src="assets/img/ícone seta baixo.png" alt="">
+                    </a>
+                </li>
+                <li class="menu__item menu__pesquisar">
+                    <label class="menu__label" for="pesquisar">
+                        <input type="search" placeholder="O que você procura?" id="pesquisar" class="menu__input">
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="banner">
+            <img src="assets/img/Banner1.png" alt="">
+            <img src="assets/img/Banner2.png" alt="">
+            <img src="assets/img/Banner3.png" alt="">
+            <img src="assets/img/Banner4.png" alt="">
+        </section>
+
+        <!--categorias-->
+        <section class="categorias">
+            <h2 class="categorias__titulo">CATEGORIAS</h2>
+            <ul class="categorias__lista">
+                <a href="#"><li class="categorias__item item__amarelo">SHOWS</li></a>
+                <a href="#"><li class="categorias__item item__laranja">TEATRO</li></a>
+                <a href="#"><li class="categorias__item item__lilas">FESTIVAIS</li></a>
+                <a href="#"><li class="categorias__item item__verde">CINEMA</li></a>
+                <a href="#"><li class="categorias__item item__amarelo">ARTE</li></a>
+                <a href="#"><li class="categorias__item item__laranja">FOTOGRAFIA</li></a>
+                <a href="#"><li class="categorias__item item__lilas">TECNOLOGIA</li></a>
+                <a href="#"><li class="categorias__item item__verde">DESIGN</li></a>
+            </ul>
+
+            <!--destaques-->
+            <div class="categorias__destaques">
+                <div class="destaques">
+                    <h3 class="destaques__titulo">Destaques: </h3>
+                    <div class="destaques__barra"></div>
+                    <div class="destaques__setas">
+                        <img src="assets/img/Seta voltar.png" alt="Seta voltar">
+                        <img src="assets/img/Seta avançar.png" alt="Seta avançar">
+                    </div>
+                </div>
+                <div class="destaques__imagem"></div>
+            </div>
+        </section>
+
+        <!--eventos-->
+        <section class="eventos">
+            <h2 class="eventos__titulo">Próximos eventos</h2>
+            <ul class="eventos__lista">
+                <li class="eventos__item">
+                    <img src="assets/img/Card 1.png" alt="">
+                    <h3>Festival das Luzes</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card 2.png" alt="">
+                    <h3>Festa Latina</h3>
+                    <h4>16/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card 3.png" alt="">
+                    <h3>Festival de Cinema</h3>
+                    <h4>16/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card 4.png" alt="">
+                    <h3>Corrida pela Saúde</h3>
+                    <h4>18/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card5.png" alt="">
+                    <h3>Feira de animes</h3>
+                    <h4>18/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card6.png" alt="">
+                    <h3>Festival Multicores</h3>
+                    <h4>18/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card7.png" alt="">
+                    <h3>Dia de Balonismo</h3>
+                    <h4>18/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li class="eventos__item">
+                    <img src="assets/img/Card8.png" alt="">
+                    <h3>Quinta 3D</h3>
+                    <h4>18/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>Ver</button>
+                </li>
+                <li>
+                    <button class="botao__verMais">Ver mais</button>
+                </li> 
+            </ul>
+
+        </section>
+
+        <section class="agenda">
+            <h2 class="agenda__titulo">Coloque na sua agenda!</h2>
+            <ul class="agenda__lista">
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 1.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>18 (quinta)</h4>
+                        <h4>20:30</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Quinta 3D</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 2.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>16 (terça)</h4>
+                        <h4>20:30</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Festival de Cinema</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 3.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>18 (quinta)</h4>
+                        <h4>8 a 12:00</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Dia do Balonismo</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 4.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>18 (quinta)</h4>
+                        <h4>20:30</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Hard Rockers</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 5.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>18 (quinta)</h4>
+                        <h4>20:30</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Balé Municipal</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="assets/img/Agenda 6.png" alt="">
+                    <div class="agenda__informacoes">
+                        <h3>Agosto</h3>
+                        <h4>18 (quinta)</h4>
+                        <h4>16:00</h4>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h5>Festival Multicores</h5>
+                        <button>Avise-me</button>
+                    </div>
+                </li>
+                <li><button class="botao__verMais">Ver mais</button></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <h3>Encontre eventos</h3>
+            </li>
+            <li class="rodape__item"><a href="#">Esta semana</a></li>
+            <li class="rodape__item"><a href="#">Este fim de semana</a></li>
+            <li class="rodape__item"><a href="#">Este mês</a></li>
+            <li class="rodape__item"><a href="#">Este trimestre</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <h3>Cidades</h3>
+            </li>
+            <li class="rodape__item"><a href="#">São Paulo</a></li>
+            <li class="rodape__item"><a href="#">Rio de Janeiro</a></li>
+            <li class="rodape__item"><a href="#">Porto Alegre</a></li>
+            <li class="rodape__item"><a href="#">Salvador</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <h3>Categorias</h3>
+            </li>
+            <li class="rodape__item"><a href="#">Shows</a></li>
+            <li class="rodape__item"><a href="#">Arte</a></li>
+            <li class="rodape__item"><a href="#">Teatro</a></li>
+            <li class="rodape__item"><a href="#">Fotografia</a></li>
+            <li class="rodape__item"><a href="#">Festivais</a></li>
+            <li class="rodape__item"><a href="#">Design</a></li>
+            <li class="rodape__item"><a href="#">Cinema</a></li>
+            <li class="rodape__item"><a href="#">Tecnologia</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <h3>Sobre nós</h3>
+            </li>
+            <li class="rodape__item"><a href="#">Carreiras</a></li>
+            <li class="rodape__item"><a href="#">História</a></li>
+            <li class="rodape__item"><a href="#">Contato</a></li>
+            <li class="rodape__item"><a href="#">Localização</a></li>
+        </ul>
+        <ul class="rodape__lista">
+            <li class="rodape__item">
+                <h3>Anuncie se evento</h3>
+            </li>
+            <li class="rodape__item"><a href="#">Músicas e festas</a></li>
+            <li class="rodape__item"><a href="#">Cursos de workshops</a></li>
+            <li class="rodape__item"><a href="#">Esportivos</a></li>
+            <li class="rodape__item"><a href="#">Congresso</a></li>
+            <li class="rodape__item"><a href="#">Religioso</a></li>
+            <li class="rodape__item"><a href="#">Online</a></li>
+        </ul>
+
+        <div class="rodape__logo">
+            <h4></h4>
+            <p>Desenvovido por Alura.</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
